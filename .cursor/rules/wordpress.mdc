@@ -1,0 +1,11 @@
+---
+description: Rules for editing the Aircraft Aviation WordPress theme
+globs: "**/*"
+alwaysApply: true
+---
+
+# Aircraft Aviation theme
+
+- Make weekly homepage updates by editing `data/home.json`. Do not hardcode that week's photos, news, trip reports, streams, or events into the PHP templates.
+- Do not add Node.js, npm, package.json, Docker, or an install script.
+- Do not add analytics code to the theme. No tracking pixels, analytics snippets, tag managers, or third-party analytics scripts.

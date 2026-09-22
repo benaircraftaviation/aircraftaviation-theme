@@ -1,0 +1,166 @@
+{
+  "updated": "2026-09-22",
+  "trip_planning": [
+    {
+      "title": "Google Flights",
+      "url": "https://www.google.com/travel/flights",
+      "description": "Search fares and sketch an itinerary before you lock the date."
+    },
+    {
+      "title": "AeroLOPA",
+      "url": "https://www.aerolopa.com/",
+      "description": "Seat maps for the airplane you will actually be on."
+    },
+    {
+      "title": "Great Circle Mapper",
+      "url": "https://www.gcmap.com/",
+      "description": "Plot the route, the distance, and the cities in between."
+    }
+  ],
+  "live_stream_links": [
+    {
+      "title": "Airline Videos Live",
+      "url": "https://www.youtube.com/@AIRLINEVIDEOS",
+      "description": "Open airport streams from LAX and the road shows."
+    },
+    {
+      "title": "NYC Aviation",
+      "url": "https://www.nycaviation.com/",
+      "description": "New York airport news and spotting notes."
+    },
+    {
+      "title": "Caveman Aviation",
+      "url": "https://www.youtube.com/@L.A.FLIGHTS/streams",
+      "description": "Peter the Caveman, live from the ramp and from the road."
+    },
+    {
+      "title": "LA Flights",
+      "url": "https://www.youtube.com/@L.A.FLIGHTS",
+      "description": "LAX live plane spotting."
+    }
+  ],
+  "photo_desk": {
+    "left": [
+      {
+        "src": "https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?auto=format&fit=crop&w=800&q=80",
+        "alt": "Airliner flying above a deck of clouds",
+        "caption": "Above the deck"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1540962351504-03099e0a754b?auto=format&fit=crop&w=800&q=80",
+        "alt": "Commercial jet in flight against a blue sky",
+        "caption": "On the departure"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1559628233-100c798642d4?auto=format&fit=crop&w=800&q=80",
+        "alt": "Aircraft on an airport ramp in warm evening light",
+        "caption": "Ramp light"
+      }
+    ],
+    "photo_of_the_day": {
+      "src": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1600&q=80",
+      "alt": "Airplane wing and engine seen from a passenger window over clouds",
+      "caption": "Wing over a bright cloud layer. Photo: Unsplash."
+    },
+    "right": [
+      {
+        "src": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=80",
+        "alt": "Airplane parked at an airport gate",
+        "caption": "At the gate"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1529074963764-98f45c47344b?auto=format&fit=crop&w=800&q=80",
+        "alt": "Airplane flying across a clear sky",
+        "caption": "En route"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1556388158-158ea5ccacbd?auto=format&fit=crop&w=800&q=80",
+        "alt": "View of an airplane wing from a cabin window",
+        "caption": "Window seat"
+      }
+    ]
+  },
+  "aviation_news": [
+    {
+      "title": "Placeholder: widebody deliveries to watch",
+      "url": "/news/",
+      "source": "Aircraft Aviation",
+      "date": "Sep 22, 2026",
+      "summary": "Sample news item. Replace this with a sourced story and the outbound link."
+    },
+    {
+      "title": "Placeholder: airport works that change a spotting day",
+      "url": "/news/",
+      "source": "Aircraft Aviation",
+      "date": "Sep 21, 2026",
+      "summary": "Sample news item for runway, taxiway, or terminal work readers should know about."
+    },
+    {
+      "title": "Placeholder: a new transatlantic frequency",
+      "url": "/news/",
+      "source": "Aircraft Aviation",
+      "date": "Sep 20, 2026",
+      "summary": "Sample news item. Name the airline, the city pair, and the aircraft."
+    }
+  ],
+  "trip_reports": [
+    {
+      "title": "Placeholder: JFK to LAX, window seat",
+      "url": "/blog/",
+      "route": "JFK–LAX",
+      "summary": "Sample trip report. Swap in the flight number, seat, and what was worth watching."
+    },
+    {
+      "title": "Placeholder: a morning on the spotting hill",
+      "url": "/blog/",
+      "route": "LAX",
+      "summary": "Sample field note. Add the runway config and the arrivals that made the visit."
+    }
+  ],
+  "newsletter": {
+    "title": "Blog / Newsletter",
+    "text": "Weekly notes for avgeeks: the photo desk, routes worth planning, and streams worth opening.",
+    "button": "Blog / Newsletter",
+    "url": "/blog/"
+  },
+  "x_feed": {
+    "title": "On X",
+    "handle": "",
+    "url": "",
+    "placeholder": "X feed placeholder. Posts will show here once the account URL is added."
+  },
+  "featured_stream": {
+    "name": "Airline Videos Live",
+    "url": "https://www.youtube.com/@AIRLINEVIDEOS",
+    "status": "Check the channel for today's show",
+    "description": "Featured stream placeholder. Point this at whoever is live this week."
+  },
+  "sidebar_news": [
+    {
+      "title": "Placeholder: fleet note",
+      "url": "/news/",
+      "date": "Sep 22, 2026",
+      "summary": "Short sidebar item. Keep these to one or two sentences."
+    },
+    {
+      "title": "Placeholder: schedule change",
+      "url": "/news/",
+      "date": "Sep 19, 2026",
+      "summary": "Another short sidebar item for a route or time change."
+    }
+  ],
+  "upcoming_events": [
+    {
+      "title": "Placeholder: spotting morning",
+      "url": "/events/",
+      "date": "Sat, Oct 4, 2026",
+      "location": "TWA Hotel, JFK"
+    },
+    {
+      "title": "Newsletter send",
+      "url": "/blog/",
+      "date": "Fri, Oct 3, 2026",
+      "location": "Aircraft Aviation"
+    }
+  ]
+}
