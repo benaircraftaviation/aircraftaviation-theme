@@ -36,6 +36,17 @@ function aircraftaviation_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'aircraftaviation_enqueue_styles' );
 
 /**
+ * Favicon and apple touch icon. Header logo is unchanged.
+ */
+function aircraftaviation_favicon() {
+	$uri = get_stylesheet_directory_uri();
+
+	echo '<link rel="icon" type="image/png" href="' . esc_url( $uri . '/assets/favicon-32.png' ) . '">' . "\n";
+	echo '<link rel="apple-touch-icon" href="' . esc_url( $uri . '/assets/apple-touch-icon.png' ) . '">' . "\n";
+}
+add_action( 'wp_head', 'aircraftaviation_favicon' );
+
+/**
  * Load homepage content from data/home.json.
  *
  * @return array
