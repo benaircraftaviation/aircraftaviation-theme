@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-25",
   "trip_planning": [
     {
       "title": "Google Flights",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Great Circle Mapper",
-      "url": "https://www.gcmap.com/",
+      "url": "http://www.gcmap.com/mapui",
       "description": "Plot the route, the distance, and the cities in between."
     }
   ],
@@ -30,7 +30,7 @@
     },
     {
       "title": "Caveman Aviation",
-      "url": "https://www.youtube.com/@L.A.FLIGHTS/streams",
+      "url": "https://www.youtube.com/@CavemanAviationLIVE",
       "description": "Peter the Caveman, live from the ramp and from the road."
     },
     {
@@ -82,39 +82,60 @@
   },
   "aviation_news": [
     {
-      "title": "Placeholder: widebody deliveries to watch",
-      "url": "/news/",
-      "source": "Aircraft Aviation",
-      "date": "Sep 22, 2026",
-      "summary": "Sample news item. Replace this with a sourced story and the outbound link."
+      "title": "United takes first A321XLR with Pratt & Whitney GTF Advantage",
+      "url": "https://aviationnews.eu/news/2026/09/united-airlines-receives-first-airbus-a321xlr-powered-by-pratt-whitney-gtf-advantage-engines/",
+      "source": "Aviation News",
+      "date": "Sep 24, 2026",
+      "summary": "United has taken its first A321XLR with Pratt & Whitney GTF Advantage engines."
     },
     {
-      "title": "Placeholder: airport works that change a spotting day",
-      "url": "/news/",
-      "source": "Aircraft Aviation",
+      "title": "Korean Air firms 103-airplane Boeing order",
+      "url": "https://boeing.mediaroom.com/2026-09-16-Boeing,-Korean-Air-Announce-Record-103-Airplane-Order",
+      "source": "Boeing",
+      "date": "Sep 16, 2026",
+      "summary": "Korean Air has firmed an order for 103 Boeing airplanes."
+    },
+    {
+      "title": "LAWA: 750+ on the LAX ramp for Cranky Dorkfest 2026",
+      "url": "https://www.lawa.org/news-releases/2026/lax-welcomes-more-750-aviation-enthusiasts-airfield-cranky-dorkfest-2026",
+      "source": "LAWA",
       "date": "Sep 21, 2026",
-      "summary": "Sample news item for runway, taxiway, or terminal work readers should know about."
+      "summary": "LAWA says more than 750 aviation enthusiasts were on the LAX airfield for Cranky Dorkfest 2026."
     },
     {
-      "title": "Placeholder: a new transatlantic frequency",
-      "url": "/news/",
-      "source": "Aircraft Aviation",
-      "date": "Sep 20, 2026",
-      "summary": "Sample news item. Name the airline, the city pair, and the aircraft."
+      "title": "American expands A321XLR transatlantic flying for summer 2027",
+      "url": "https://aviationnews.eu/news/2026/09/american-airlines-expands-transatlantic-network-with-new-airbus-a321xlr-routes-for-summer-2027/",
+      "source": "Aviation News",
+      "date": "Sep 1, 2026",
+      "summary": "American is expanding A321XLR transatlantic flying for summer 2027."
+    },
+    {
+      "title": "Cranky Flier recap of Dorkfest 2026",
+      "url": "https://crankyflier.com/2026/09/21/thanks-to-all-who-came-out-for-cranky-dorkfest-2026/",
+      "source": "Cranky Flier",
+      "date": "Sep 21, 2026",
+      "summary": "Cranky Flier thanks everyone who came out for Dorkfest 2026."
     }
   ],
   "trip_reports": [
     {
-      "title": "Placeholder: JFK to LAX, window seat",
-      "url": "/blog/",
-      "route": "JFK–LAX",
-      "summary": "Sample trip report. Swap in the flight number, seat, and what was worth watching."
+      "title": "Ramp Tour at Cranky Dorkfest 2026",
+      "url": "/blog/ramp-tour-at-cranky-dorkfest-2026/",
+      "source": "Aircraft Aviation",
+      "route": "LAX",
+      "summary": "Five US majors on the Flight Path Museum ramp, Sep 19."
     },
     {
-      "title": "Placeholder: a morning on the spotting hill",
-      "url": "/blog/",
-      "route": "LAX",
-      "summary": "Sample field note. Add the runway config and the arrivals that made the visit."
+      "title": "Thanks to all who came out for Cranky Dorkfest 2026",
+      "url": "https://crankyflier.com/2026/09/21/thanks-to-all-who-came-out-for-cranky-dorkfest-2026/",
+      "source": "Cranky Flier",
+      "route": "LAX"
+    },
+    {
+      "title": "What you need to know to attend Dorkfest",
+      "url": "https://crankyflier.com/dorkfest",
+      "source": "Cranky Flier",
+      "route": "LAX"
     }
   ],
   "newsletter": {
@@ -137,13 +158,13 @@
   },
   "sidebar_news": [
     {
-      "title": "Placeholder: fleet note",
+      "title": "Fleet note",
       "url": "/news/",
       "date": "Sep 22, 2026",
       "summary": "Short sidebar item. Keep these to one or two sentences."
     },
     {
-      "title": "Placeholder: schedule change",
+      "title": "Schedule change",
       "url": "/news/",
       "date": "Sep 19, 2026",
       "summary": "Another short sidebar item for a route or time change."
@@ -151,7 +172,7 @@
   ],
   "upcoming_events": [
     {
-      "title": "Placeholder: spotting morning",
+      "title": "Spotting morning",
       "url": "/events/",
       "date": "Sat, Oct 4, 2026",
       "location": "TWA Hotel, JFK"
