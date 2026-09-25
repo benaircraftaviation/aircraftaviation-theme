@@ -1,6 +1,6 @@
 <?php
 /**
- * Navy footer: Aircraft Aviation, Watch, Plan, Follow, copyright.
+ * Navy footer: Aircraft Aviation, Watch, Follow, copyright.
  *
  * @package AircraftAviation
  */
@@ -31,14 +31,6 @@ $x    = ( isset( $data['x_feed'] ) && is_array( $data['x_feed'] ) ) ? $data['x_f
 					<li><a href="https://www.youtube.com/@AIRLINEVIDEOS" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Airline Videos Live', 'aircraftaviation' ); ?></a></li>
 					<li><a href="https://www.nycaviation.com/" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'NYC Aviation', 'aircraftaviation' ); ?></a></li>
 					<li><a href="https://www.youtube.com/@L.A.FLIGHTS" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'LA Flights', 'aircraftaviation' ); ?></a></li>
-				</ul>
-			</section>
-			<section>
-				<h2><?php esc_html_e( 'Plan', 'aircraftaviation' ); ?></h2>
-				<ul>
-					<li><a href="https://www.google.com/travel/flights" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Google Flights', 'aircraftaviation' ); ?></a></li>
-					<li><a href="https://www.aerolopa.com/" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'AeroLOPA', 'aircraftaviation' ); ?></a></li>
-					<li><a href="https://www.gcmap.com/" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Great Circle Mapper', 'aircraftaviation' ); ?></a></li>
 				</ul>
 			</section>
 			<section>

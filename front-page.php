@@ -98,6 +98,21 @@ $aircraftaviation_photo = function ( $photo, $class, $kicker = '' ) {
 				<p class="empty"><?php esc_html_e( 'Add live stream links in data/home.json.', 'aircraftaviation' ); ?></p>
 			<?php endif; ?>
 		</section>
+
+		<section class="card" aria-labelledby="the-plan-title">
+			<h2 id="the-plan-title"><?php esc_html_e( 'The Plan', 'aircraftaviation' ); ?></h2>
+			<ul class="link-list">
+				<li>
+					<?php aircraftaviation_link( 'https://www.google.com/travel/flights', __( 'Google Flights', 'aircraftaviation' ) ); ?>
+				</li>
+				<li>
+					<?php aircraftaviation_link( 'https://www.aerolopa.com/', __( 'AeroLOPA', 'aircraftaviation' ) ); ?>
+				</li>
+				<li>
+					<?php aircraftaviation_link( 'https://www.gcmap.com/', __( 'Great Circle Mapper', 'aircraftaviation' ) ); ?>
+				</li>
+			</ul>
+		</section>
 	</div>
 
 	<div class="home-col home-col-center">
