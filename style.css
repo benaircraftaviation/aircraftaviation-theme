@@ -29,9 +29,13 @@ Text Domain: aircraftaviation
   box-sizing: border-box;
 }
 
+html {
+  background: var(--navy);
+}
+
 body {
   margin: 0;
-  background: var(--paper);
+  background: var(--navy);
   color: var(--ink);
   font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -153,6 +157,14 @@ a:focus-visible {
   color: var(--gold);
 }
 
+/* Page and column wrappers sit on the header navy. Cards stay off-white. */
+main,
+.home-grid,
+.home-col,
+.content-page {
+  background: var(--navy);
+}
+
 /* Homepage grid: 25% | 50% | 25%. */
 .home-grid {
   --home-gap: var(--gap);
@@ -176,6 +188,7 @@ a:focus-visible {
 
 .card {
   background: var(--card);
+  color: var(--ink);
   border: 1px solid var(--line);
   border-radius: 6px;
   padding: 1rem 1.05rem 1.1rem;
@@ -458,6 +471,14 @@ a:focus-visible {
 
 .site-footer a:hover {
   color: #fff;
+}
+
+.navigation a {
+  color: #fff;
+}
+
+.navigation a:hover {
+  color: var(--gold);
 }
 
 .copyright {
