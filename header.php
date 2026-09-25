@@ -1,6 +1,6 @@
 <?php
 /**
- * Site banner and primary navigation.
+ * Site banner.
  *
  * @package AircraftAviation
  */
@@ -8,39 +8,6 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
-$aircraftaviation_nav = array(
-	array(
-		'label'   => __( 'Dashboard', 'aircraftaviation' ),
-		'url'     => home_url( '/' ),
-		'current' => is_front_page(),
-	),
-	array(
-		'label'   => __( 'News', 'aircraftaviation' ),
-		'url'     => home_url( '/news/' ),
-		'current' => is_page( 'news' ),
-	),
-	array(
-		'label'   => __( 'Blog', 'aircraftaviation' ),
-		'url'     => home_url( '/blog/' ),
-		'current' => is_page( 'blog' ) || ( is_home() && ! is_front_page() ),
-	),
-	array(
-		'label'   => __( 'Streams', 'aircraftaviation' ),
-		'url'     => home_url( '/streams/' ),
-		'current' => is_post_type_archive( 'stream' ) || is_singular( 'stream' ),
-	),
-	array(
-		'label'   => __( 'How We Verify', 'aircraftaviation' ),
-		'url'     => home_url( '/how-we-verify/' ),
-		'current' => is_page( 'how-we-verify' ),
-	),
-	array(
-		'label'   => __( 'Contact', 'aircraftaviation' ),
-		'url'     => home_url( '/contact/' ),
-		'current' => is_page( 'contact' ),
-	),
-);
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -65,16 +32,5 @@ $aircraftaviation_nav = array(
 				<span class="site-subtitle">THE AVGEEK AVIATION SOURCE</span>
 			</span>
 		</a>
-		<nav class="site-nav" aria-label="<?php esc_attr_e( 'Primary', 'aircraftaviation' ); ?>">
-			<ul>
-				<?php foreach ( $aircraftaviation_nav as $item ) : ?>
-					<li>
-						<a href="<?php echo esc_url( $item['url'] ); ?>"<?php echo $item['current'] ? ' aria-current="page"' : ''; ?>>
-							<?php echo esc_html( $item['label'] ); ?>
-						</a>
-					</li>
-				<?php endforeach; ?>
-			</ul>
-		</nav>
 	</div>
 </header>
