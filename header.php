@@ -55,7 +55,7 @@ $aircraftaviation_nav = array(
 <header class="site-banner">
 	<div class="banner-inner">
 		<a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-			<span class="aa-mark" aria-hidden="true">AA</span>
+			<img class="aa-logo" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/logo.png' ); ?>" alt="Aircraft Aviation">
 			<span class="brand-text">
 				<?php if ( is_front_page() ) : ?>
 					<h1 class="site-title">Aircraft Aviation</h1>
