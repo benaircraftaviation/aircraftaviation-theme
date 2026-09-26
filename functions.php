@@ -47,6 +47,29 @@ function aircraftaviation_favicon() {
 add_action( 'wp_head', 'aircraftaviation_favicon' );
 
 /**
+ * Open and close the header menu. Desktop shows the links without this.
+ */
+function aircraftaviation_nav_script() {
+	?>
+	<script>
+	(function () {
+		var button = document.querySelector('.nav-toggle');
+		var nav = document.getElementById('site-nav');
+		if (!button || !nav) {
+			return;
+		}
+		button.addEventListener('click', function () {
+			var open = button.getAttribute('aria-expanded') === 'true';
+			button.setAttribute('aria-expanded', open ? 'false' : 'true');
+			nav.classList.toggle('is-open', !open);
+		});
+	}());
+	</script>
+	<?php
+}
+add_action( 'wp_footer', 'aircraftaviation_nav_script' );
+
+/**
  * Load homepage content from data/home.json.
  *
  * @return array
