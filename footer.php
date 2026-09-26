@@ -18,6 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<p class="copyright">&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> Aircraft Aviation.</p>
 	</div>
 </footer>
+<script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 <?php wp_footer(); ?>
 </body>
 </html>

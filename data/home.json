@@ -146,8 +146,8 @@
   },
   "x_feed": {
     "title": "On X",
-    "handle": "",
-    "url": "",
+    "handle": "@aircraftav",
+    "url": "https://x.com/aircraftav",
     "placeholder": "X feed placeholder. Posts will show here once the account URL is added."
   },
   "featured_stream": {

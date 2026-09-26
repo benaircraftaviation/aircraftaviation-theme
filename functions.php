@@ -42,32 +42,9 @@ function aircraftaviation_favicon() {
 	$uri = get_stylesheet_directory_uri();
 
 	echo '<link rel="icon" type="image/png" href="' . esc_url( $uri . '/assets/favicon-32.png' ) . '">' . "\n";
-	echo '<link rel="apple-touch-icon" href="' . esc_url( $uri . '/assets/apple-touch-icon.png' ) . '">' . "\n";
+	echo '<link rel="apple-touch-icon" sizes="180x180" href="' . esc_url( $uri . '/assets/apple-touch-icon.png' ) . '">' . "\n";
 }
 add_action( 'wp_head', 'aircraftaviation_favicon' );
-
-/**
- * Open and close the header menu. Desktop shows the links without this.
- */
-function aircraftaviation_nav_script() {
-	?>
-	<script>
-	(function () {
-		var button = document.querySelector('.nav-toggle');
-		var nav = document.getElementById('site-nav');
-		if (!button || !nav) {
-			return;
-		}
-		button.addEventListener('click', function () {
-			var open = button.getAttribute('aria-expanded') === 'true';
-			button.setAttribute('aria-expanded', open ? 'false' : 'true');
-			nav.classList.toggle('is-open', !open);
-		});
-	}());
-	</script>
-	<?php
-}
-add_action( 'wp_footer', 'aircraftaviation_nav_script' );
 
 /**
  * Load homepage content from data/home.json.
