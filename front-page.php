@@ -80,6 +80,11 @@ $aircraftaviation_photo = function ( $photo, $class, $kicker = '' ) {
 			<?php endif; ?>
 		</section>
 
+		<section class="card" aria-labelledby="x-feed-title">
+			<h2 id="x-feed-title"><?php echo esc_html( ! empty( $x_feed['title'] ) ? $x_feed['title'] : __( 'On X', 'aircraftaviation' ) ); ?></h2>
+			<a class="twitter-timeline" data-theme="dark" data-height="420" href="<?php echo esc_url( 'https://x.com/aircraftav?ref_src=twsrc%5Etfw' ); ?>"><?php esc_html_e( 'Posts by aircraftav', 'aircraftaviation' ); ?></a>
+		</section>
+
 		<section class="card" aria-labelledby="live-streams-title">
 			<h2 id="live-streams-title"><?php esc_html_e( 'Live Stream Links', 'aircraftaviation' ); ?></h2>
 			<?php if ( $live_streams ) : ?>
@@ -208,19 +213,6 @@ $aircraftaviation_photo = function ( $photo, $class, $kicker = '' ) {
 					<?php echo esc_html( $button_label ); ?>
 				</a>
 			<?php endif; ?>
-		</section>
-
-		<section class="card" aria-labelledby="x-feed-title">
-			<h2 id="x-feed-title"><?php echo esc_html( ! empty( $x_feed['title'] ) ? $x_feed['title'] : __( 'On X', 'aircraftaviation' ) ); ?></h2>
-			<div class="x-placeholder">
-				<?php if ( ! empty( $x_feed['handle'] ) ) : ?>
-					<p><strong><?php echo esc_html( $x_feed['handle'] ); ?></strong></p>
-				<?php endif; ?>
-				<p><?php echo esc_html( ! empty( $x_feed['placeholder'] ) ? $x_feed['placeholder'] : __( 'X feed placeholder.', 'aircraftaviation' ) ); ?></p>
-				<?php if ( ! empty( $x_feed['url'] ) ) : ?>
-					<p><?php aircraftaviation_link( $x_feed['url'], ! empty( $x_feed['handle'] ) ? $x_feed['handle'] : __( 'View on X', 'aircraftaviation' ) ); ?></p>
-				<?php endif; ?>
-			</div>
 		</section>
 
 		<section class="card featured-stream" aria-labelledby="featured-stream-title">
